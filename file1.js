@@ -53,3 +53,69 @@
 // import { circleArea, circleCircumference } from './circle.js';
 // circleArea(5)
 // circleCircumference(5)
+
+//
+//
+//
+
+// ÖDEV 4
+// CRUD işlemlerini tek tek çalıştırın
+
+// import { writeFile, readFile, unlink } from 'fs/promises';
+
+// CREATE
+// let employees = { "name": "Employee 1 Name", "salary": 2000 };
+// await writeFile('employees.json', JSON.stringify(employees), 'utf8');
+
+// READ
+// let data = await readFile('employees.json', 'utf8');
+// employees = JSON.parse(data);
+// console.log(employees);
+
+// UPDATE
+// employees.salary = 3000;
+// await writeFile('employees.json', JSON.stringify(employees), 'utf8');
+
+// DELETE
+// await unlink('employees.json');
+
+//
+//
+//
+
+// ÖDEV 5
+
+// import http from 'http';
+
+// const server = http.createServer((req, res) => {
+//     switch (req.url) {
+//         case '/':
+//             res.writeHead(200, { 'Content-Type': 'text/html' });
+//             res.write('<h2>Index sayfasına hoşgeldiniz</h2>');
+//             break;
+//         case '/hakkimda':
+//             res.writeHead(200, { 'Content-Type': 'text/html' });
+//             res.write('<h2>Hakkımda sayfasına hoşgeldiniz</h2>');
+//             break;
+//         case '/iletisim':
+//             res.writeHead(200, { 'Content-Type': 'text/html' });
+//             res.write('<h2>İletişim sayfasına hoşgeldiniz</h2>');
+//             break;
+//         default:
+//             res.writeHead(404, { 'Content-Type': 'text/html' });
+//             res.write('<h2>Sayfa bulunamadı</h2>');
+//             break;
+//     }
+//     res.end();
+// });
+
+// const port = 5000;
+// server.listen(port, () => {
+//     console.log(`Sunucu http://localhost:${port} adresinde başlatıldı`);
+// });
+
+//
+//
+//
+
+// ÖDEV 6
