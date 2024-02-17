@@ -1,0 +1,21 @@
+{
+  "name": "patikadevnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file1.js",
+  "type": "module",
+  "scripts": {
+    "start": "node file1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taneruzum/PatikaDevNode.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taneruzum/PatikaDevNode.js/issues"
+  },
+  "homepage": "https://github.com/taneruzum/PatikaDevNode.js#readme"
+}
